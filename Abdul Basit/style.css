@@ -1,0 +1,359 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1920px;
+}
+
+.logo {
+    align-self: center;
+}
+
+.nav-menu {
+    align-self: center;
+}
+
+.logo-image {
+    width: 189px;
+    height: 92px;
+}
+
+.header-container {
+    display: flex;
+    width: 1920px;
+    justify-content: space-evenly;
+
+}
+
+.menu-items {
+    list-style-type: none;
+    display: inline;
+}
+
+.menu-items a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+
+
+}
+.colon-svg{
+    display: inline-block; }
+
+.contacts {
+    align-self: center;
+}
+
+span.contact-info {
+    font-weight: bold;
+}
+
+.challange-section-container {
+    text-align: center;
+
+}
+
+.sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.sub-heading h6 {
+    font-size: 31px;
+    font-weight: 300;
+    font-family: 'Segoe UI';
+}
+
+.main-heading {
+text-align: center;
+    padding-bottom: 50px;
+}
+
+.main-heading h2 {
+    margin: 0 auto;
+    text-transform: capitalize;
+    max-width: 1137px;
+    padding-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.challange-section-images {
+    display: flex;
+    justify-content: center;
+}
+
+.bigger-image {
+    margin-right: 17px;
+}
+
+.challange-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.issues-section-container {
+    justify-content: center;
+    display: flex;
+}
+.data-protection{
+    padding-bottom: 50px;
+}
+#c1,
+#c2,
+#c3 {
+    width: 21%;
+    margin-right: 30px;
+    padding-bottom: 100px;
+}
+.issue-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#heading{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.banner-container{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.it-solution-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#premiere-subheadingsvg{
+        padding-bottom: 30px;
+}
+.premeier-subheading{
+    margin: 0px;
+}
+.premiere-heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.banner-heading{
+    margin: 0 auto;
+    font-family: sora;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 32px;
+    max-width: 1325px;
+    color: #FFFFFF;
+}
+.change-color{
+    color: #EBB43D;;
+}
+.premeier-detail{
+   text-align: center;
+}
+.premeier-detail p{
+    line-height: 26.6px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+    width: 1195px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+.premeier-main-heading{
+    text-align: center;
+}
+
+.premeier-main-heading h2{
+margin: 0 auto;
+    text-transform: capitalize;
+    max-width: 1137px;
+    padding-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+}
+.it-solutions-inner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.image-container{
+    width: 48%;
+text-align: end;
+}
+.img-worker{
+    width: 705px;
+    height: 456px;
+    top: 2400px;
+    left: 240px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+.solutions-container{
+    width: 48%;
+}
+.row-1, .row-2, .row-3{
+    margin-bottom: 35px;
+}
+.comprehensive-it{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.comprehensive-it-heading{
+    margin: 0px;
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.92px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: capitalize;
+}
+.comprehensive-it-detail{
+    width: 595px;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.94px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: capitalize;
+}
+.trusted-partner-section{
+    background-image: url(images/big-bg.png);
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+.trusted-partner-container{
+    width: 1450px;
+    margin: 0 auto;
+}
+.trusted-row-1{
+    display: flex;
+    padding-bottom: 80px;
+
+}
+.trusted-sub-heading{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.trusted-subheading-text{
+    font-family: Segoe UI;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #FFFFFF;
+}
+.trusted-heading{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: capitalize;
+    width: 500px;
+    color: #FFFFFF;
+}
+.trusted-detail{
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.6px;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 500px;
+    color: #FFFFFF;
+}
+.trusted-column-1{
+    width: 50%;
+    align-content: center;
+}
+.trusted-column-2 {
+    width: 50%;
+}
+.female-worker{
+    border-radius: 10px;
+}
+.trusted-row-2{
+    display: flex;
+    width: 1450px;
+    justify-content: space-between;
+}
+.managed-it-coloumn{
+    display: grid;
+    width: 461px;
+    height: 360px;
+    background-image: url(images/white-bg.png);
+}
+.managed-it-content{
+    width: 401px;
+    margin: 0 auto;
+}
+.managed-it-svg{
+    display: block;
+    margin-left: auto;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.managed-heading{
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.92px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1C3557;
+}
+.managed-detail{
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.clients-section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.client-container{
+    width: 1195px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 35px;
+}
+.client-row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.client-row-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container{
+    display: grid;
+    justify-content: center;
+}
+.footer-row{
+    width: 1450px;
+}
+.footer-about-coloumn{
+    max-width: 380px;
+}
